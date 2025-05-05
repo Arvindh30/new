@@ -1,6 +1,6 @@
 # 🔥 AI-Powered Log Analysis & Forecasting Web App
 
-A Flask-based web application that performs intelligent **log file analysis**, **anomaly detection**, and **future severity forecasting** using machine learning and time series modeling.
+A Flask-based web application that performs intelligent **Log File Analysis**, **Anomaly Detection**, and **Future Severity Forecasting** using Machine Learning and Time Series Modeling.
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
 ![Flask](https://img.shields.io/badge/Flask-2.0-lightgrey?logo=flask)
@@ -13,25 +13,22 @@ A Flask-based web application that performs intelligent **log file analysis**, *
 
 - 📝 Upload or paste raw log text into the web interface
 - 🔍 Clean and preprocess logs into structured tabular data
-- 📊 Visualize log patterns with **beautiful charts** (severity, time gaps, keyword hits)
-- 🚨 Detect **anomalies** using **Isolation Forest**
-- ⏳ Predict **future log severity** using **ARIMA**
+- 📊 Visualize log patterns with **Beautiful Charts** (severity, time gaps, keyword hits)
+- 🚨 Detect **Anomalies** using **Isolation Forest**
+- ⏳ Predict **Future Log Severity** using **ARIMA**
 - 📥 Automatically saves result images and displays them
 
 ---
 
 ## 🖼️ Sample UI Pages
 
-> ⚠️ Replace below screenshots with your actual project screenshots.
-
 ### 🏠 `index.html` – Input Page
-- Simple form to paste logs or upload files
+![image](https://github.com/user-attachments/assets/abb78483-6aa6-4b03-83bf-8013c7639af5)
 
 ### 📈 `result.html` – Output Page
-- Log level distribution
-- Message statistics
-- Anomalies over time
-- Severity forecast (ARIMA)
+![image](https://github.com/user-attachments/assets/80fdd6a2-bd4f-47c5-8b96-98d9e2fed0ac)
+
+![image](https://github.com/user-attachments/assets/9c99285e-cd44-47ef-a227-14a8cf2e9bf0)
 
 ---
 
