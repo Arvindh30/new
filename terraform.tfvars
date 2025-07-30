@@ -6,7 +6,7 @@ public_subnet_cidr   = "10.0.1.0/24"
 az                   = "us-east-1a"
 
 # Security Group values
-sg_name        = "task-sg"
+sg_name        = "tasky-sg"
 sg_description = "Allow SSH, HTTP and HTTPS"
 ingress_rules = [
   {
@@ -38,11 +38,11 @@ instance_names  = ["Jenkins-Slave & K8s-Master","K8s-Agent"]
 user_data      = ""  # Or path to file using: file("init.sh")
 root_volumes = [
   {
-    volume_size = 10
+    volume_size = 25
     volume_type = "gp3"
   },
   {
-    volume_size = 10
+    volume_size = 25
     volume_type = "gp3"
   }
 ]
